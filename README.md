@@ -1,19 +1,13 @@
 # Real-Time Helmet Detection System
 
-A deep learning computer vision system built using YOLOv8 to detect motorcycle riders with and without helmets.
+An AI-powered computer vision system built with YOLOv8 to detect riders with and without helmets.
 
-## Classes Detected
-- `With Helmet`
-- `Without Helmet`
+## Demo Video Output
+https://github.com/narayangupta9/Helmet-Detection-System/blob/main/outputs/demo.mp4
 
-## Project Structure
-- `predict.py`: Inference script for detection on video feeds.
-- `best.pt`: Fine-tuned YOLOv8 model weights.
-- `test_videos/`: Sample input videos.
-- `test_images/`: Sample input images.
-- `output/`: Processed prediction results.
+*(Click the link above to view the processed detection video)*
 
 ## Quick Start
-1. Install dependencies:
+1. Install requirements:
    ```bash
    pip install -r requirements.txt
